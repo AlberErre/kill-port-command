@@ -4,6 +4,15 @@ A easy command to kill services running on your lovely port.
 This is intended to work on unix systems, particularly MacOS.
 ```
 
+-----
+## Example
+
+![example](https://github.com/AlberErre/kill-port-command/blob/master/example.png)
+
+-----
+
+## Instructions:
+
 #### 1. navigate to `/usr/local/bin/` folder.
 #### 2. create a file named `killport`. 
 ```
