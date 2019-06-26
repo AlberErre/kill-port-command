@@ -6,7 +6,7 @@ pidToStop=`(sed '2q;d' temp.text)`
 if [[ -n $pidToStop ]]
 then
 kill -9 $pidToStop
-echo "Done. Services running on port $1 has stopped."
+echo "Done. Service running on port $1 has stopped."
 else
 echo "Sorry, there is nothing running on port $1"
 fi
